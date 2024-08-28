@@ -23,6 +23,8 @@ module "github_repository" {
   public_key_openssh_title = "flux"
 }
 
+# module to point to gke kubeconfig
+
 #module "flux_bootstrap" {
 #  source            = "github.com/den-vasyliev/tf-fluxcd-flux-bootstrap"
 #  github_repository = "${var.GITHUB_OWNER}/${var.FLUX_GITHUB_REPO}"
